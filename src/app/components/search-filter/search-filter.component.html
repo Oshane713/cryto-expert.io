@@ -1,0 +1,7 @@
+<mat-form-field>
+  <mat-label>Select Cryptocurrency</mat-label>
+  <mat-select [(value)]="selectedCoins" (selectionChange)="applyFilter()" multiple>
+    <mat-option [value]="'showAll'">Show All</mat-option>
+    <mat-option *ngFor="let coin of coins" [value]="coin.id">{{ coin.name }}</mat-option>
+  </mat-select>
+</mat-form-field>

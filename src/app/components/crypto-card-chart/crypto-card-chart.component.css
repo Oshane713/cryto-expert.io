@@ -1,0 +1,9 @@
+:host {
+    display: block;
+  }
+  
+  div {
+    height: 400px;
+    padding: 20px;
+    width : 800px
+  }

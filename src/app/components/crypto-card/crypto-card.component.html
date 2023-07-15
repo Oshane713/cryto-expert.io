@@ -1,0 +1,18 @@
+<div class="crypto-card">
+    <mat-card>
+      <mat-card-header class="crypto-card-header">
+        <mat-card-subtitle class="crypto-card-subtitle">{{coin.id | titlecase}}</mat-card-subtitle>
+        <mat-card-title class="crypto-card-title">{{coin.name}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="crypto-card-content">
+        <h1 class="crypto-card-price">Price: {{coin.priceUsd | currency }}</h1>
+        <b> 24hr Change: </b>
+        <p class="crypto-card-change" [style.color]="coin.changePercent24Hr >= 0 ? 'green' : 'red'">
+           {{coin.changePercent24Hr | currency}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions class="crypto-card-actions">
+        <button mat-button (click)="openChartDialog(coin.id)">View Chart</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

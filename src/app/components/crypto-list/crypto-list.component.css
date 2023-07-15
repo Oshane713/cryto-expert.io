@@ -1,0 +1,14 @@
+.crypto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin-top: 20px;
+}

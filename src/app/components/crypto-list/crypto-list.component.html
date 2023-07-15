@@ -1,0 +1,8 @@
+<div class="crypto-container">
+    <div>
+      <app-search-filter [coins]="coins" (filterChanged)="applyFilter($event)"></app-search-filter>
+    </div>
+    <div class="crypto-card-grid">
+      <app-crypto-card *ngFor="let coin of filteredCoins" [coin]="coin"></app-crypto-card>
+    </div>
+</div>

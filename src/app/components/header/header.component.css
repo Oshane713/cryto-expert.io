@@ -1,0 +1,39 @@
+.mat-toolbar {
+    background-color: #003d6b; /* Set the background color */
+    color: #ffffff; /* Set the text color */
+  }
+  
+  .mat-toolbar span {
+    font-size: 24px; /* Set the font size */
+  }
+  
+  .spacer {
+    flex: 1 1 auto; /* Make the spacer element take up remaining space */
+  }
+  
+  .mat-icon-button {
+    color: #ffffff; /* Set the icon color */
+  }
+  
+  .mat-menu-item {
+    color: #ffffff; /* Set the menu item text color */
+  }
+
+  .homepage-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .homepage-link .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .homepage-link:hover {
+    color: #ffcc00;
+  }

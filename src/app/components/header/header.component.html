@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <a class="homepage-link" href="/">CrytoExpert.io</a>
+    <span class="spacer"></span>
+    <button  mat-icon-button aria-label="menu icon" [matMenuTriggerFor] = "menu">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu = "matMenu">
+        <button mat-menu-item (click)="openWalletDialog()">
+            <mat-icon>account_balance_wallet</mat-icon>
+            My Bitcoin Wallet
+        </button>
+    </mat-menu>
+</mat-toolbar>
