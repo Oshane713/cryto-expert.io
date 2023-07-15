@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Design and Walkthrough
 
-Spent some time design a low def mock up on figma
+Spent some time designing a low def mock up on figma
 ![image](https://github.com/Oshane713/cryto-expert.io/assets/42421312/bbe4bc73-657b-448e-896a-6a7bfa332354)
 
 
