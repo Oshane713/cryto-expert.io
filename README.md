@@ -53,13 +53,11 @@ Bitcoin wallet when clicked.
 
 ## Ideas
 
-So due to the time contraints I wasnt able to make the full dashboard I wanted. I had many more ideas. Some of them are
-Allow wallet to include assets from the coins that was in the front page. allow user to add and remove assets for each and give a big total in the bottom as USD.
-
-Reorganize component structure: Some components I wouldve made completely unrelated and use rxjs to share data instead of @input @ouput
-
-More testing. This is my first time testing with Jasmine or any testing script for that matter. Based on some research I did some simple ones. would've Loved to go deeper and test other things like my service
-Design: Honestly this webapp couldve been much better looking especially the wallet. would've also made it responsive to different sizes.
-Wouldve wanted my card to show more information like 7day change. and 1 month change. Didnt see that readily available on this api like on coinmarketcap
+So due to the time contraints I wasnt able to make the full dashboard I wanted. I had many more ideas. Some of them are:
+*Allow wallet to include assets from the coins that was in the front page. allow user to add and remove assets for each and give a big total in the bottom as USD.
+*Reorganize component structure: Some components I wouldve made completely unrelated and use rxjs to share data instead of @input @ouput
+*More testing. This is my first time testing with Jasmine or any testing script for that matter. Based on some research I did some simple ones. would've Loved to go deeper and test other things like my service
+*Design: Honestly this webapp couldve been much better looking especially the wallet. would've also made it responsive to different sizes.
+*Wouldve wanted my card to show more information like 7day change. and 1 month change. Didnt see that readily available on this api like on coinmarketcap
 
 
