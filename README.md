@@ -48,7 +48,8 @@ Small menu at top right to show User's Bitcoin Wallet
 ![image](https://github.com/Oshane713/cryto-expert.io/assets/42421312/7cd496ad-6e81-4fbc-bcce-8993687520f6)
 
 Bitcoin wallet when clicked.
-![image](https://github.com/Oshane713/cryto-expert.io/assets/42421312/0fede65e-0935-4a2f-9b0a-5d78756494ff)
+![image](https://github.com/Oshane713/cryto-expert.io/assets/42421312/a2594cec-46ec-45e2-bbfb-e205b1d4e3ad)
+
 
 
 ## Ideas
